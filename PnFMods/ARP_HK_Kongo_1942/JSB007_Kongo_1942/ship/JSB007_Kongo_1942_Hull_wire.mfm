@@ -1,0 +1,10 @@
+<JSB007_Kongo_1942_Hull_wire.mfm>
+	<collisionFlags>	0	</collisionFlags>
+	<fx>	shaders/std_effects/PBS_wire.fx	</fx>
+	<property>	diffuseMap
+		<Texture>	PnFMods/ARP_HK_Kongo_1942/JSB007_Kongo_1942/ship/JSB007_Kongo_1942_Hull_a.dds	</Texture>
+	</property>
+	<property>	metallicGlossMap
+		<Texture>	PnFMods/ARP_HK_Kongo_1942/JSB007_Kongo_1942/ship/JSB007_Kongo_1942_Hull_mg.dds	</Texture>
+	</property>
+</JSB007_Kongo_1942_Hull_wire.mfm>

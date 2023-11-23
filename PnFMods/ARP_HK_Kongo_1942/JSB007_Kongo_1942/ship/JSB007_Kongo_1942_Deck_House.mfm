@@ -1,0 +1,49 @@
+<JSB007_Kongo_1942_Deck_House.mfm>
+	<collisionFlags>	0	</collisionFlags>
+	<fx>	shaders/std_effects/PBS_ship_emissive.fx	</fx>
+	<property>	emissivePower
+		<Float>	0.70000	</Float>
+	</property>
+	<property>	doubleSided
+		<Bool>	false	</Bool>
+	</property>
+	<property>	alphaTestEnable
+		<Bool>	true	</Bool>
+	</property>
+	<property>	alphaReference
+		<Int>	150	</Int>
+	</property>
+	<property>	ambientOcclusionMap
+		<Texture>	PnFMods/ARP_HK_Kongo_1942/JSB007_Kongo_1942/ship/JSB007_Kongo_1942_Deck_House_ao.dds	</Texture>
+	</property>
+	<property>	diffuseMap
+		<Texture>	PnFMods/ARP_HK_Kongo_1942/JSB007_Kongo_1942/ship/JSB007_Kongo_1942_Deck_House_a.dds	</Texture>
+	</property>
+	<property>	normalMap
+		<Texture>	PnFMods/ARP_HK_Kongo_1942/JSB007_Kongo_1942/ship/JSB007_Kongo_1942_Deck_House_n.dds	</Texture>
+	</property>
+	<property>	metallicGlossMap
+		<Texture>	PnFMods/ARP_HK_Kongo_1942/JSB007_Kongo_1942/ship/JSB007_Kongo_1942_Deck_House_mg.dds	</Texture>
+	</property>
+	<property>	detailMap
+		<Texture>	content/gameplay/common/textures/ship_atlas_detail.dds	</Texture>
+	</property>
+	<property>	g_detailAlbedoInfluence
+		<Float>	0.000000	</Float>
+	</property>
+	<property>	g_detailGlossInfluence
+		<Float>	0.000000	</Float>
+	</property>
+	<property>	g_detailNormalInfluence
+		<Float>	0.000000	</Float>
+	</property>
+	<property>	g_detailFadeDistance
+		<Float>	5.000000	</Float>
+	</property>
+	<property>	g_detailScaleU
+		<Float>	16.000000	</Float>
+	</property>
+	<property>	g_detailScaleV
+		<Float>	16.000000	</Float>
+	</property>
+</JSB007_Kongo_1942_Deck_House.mfm>

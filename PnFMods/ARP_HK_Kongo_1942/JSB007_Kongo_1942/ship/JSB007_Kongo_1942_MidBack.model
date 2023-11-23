@@ -1,0 +1,13 @@
+<JSB007_Kongo_1942_MidBack.model>
+	<extent>	8.0000	</extent>
+	<parent>	PnFMods/ARP_HK_Kongo_1942/JSB007_Kongo_1942/ship/lods/JSB007_Kongo_1942_MidBack_lod1	</parent>
+	<materialNames />
+	<castsShadow>	true	</castsShadow>
+	<visibilityBox>
+		<min>	-1.009112 -0.696813 -4.381523	</min>
+		<max>	1.044689 2.589627 1.212255	</max>
+	</visibilityBox>
+	<exporter>	1.6	</exporter>
+	<nodefullVisual>	PnFMods/ARP_HK_Kongo_1942/JSB007_Kongo_1942/ship/JSB007_Kongo_1942_MidBack	</nodefullVisual>
+	<metaData>	Wargaming | Lesta Studio	</metaData>
+</JSB007_Kongo_1942_MidBack.model>
