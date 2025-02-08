@@ -1,13 +1,6 @@
 <JC002_Catapult.model>
-	<extent>	3.0000	</extent>
-	<parent>	PnFMods/ARP_HK_Kongo_1942/JSB007_Kongo_1942/catapult/lods/JC002_Catapult_lod1	</parent>
-	<materialNames />
-	<castsShadow>	true	</castsShadow>
-	<visibilityBox>
-		<min>	-0.110898 0.000000 -0.465673	</min>
-		<max>	0.114191 0.158818 0.857225	</max>
-	</visibilityBox>
-	<exporter>	1.6	</exporter>
-	<nodefullVisual>	PnFMods/ARP_HK_Kongo_1942/JSB007_Kongo_1942/catapult/JC002_Catapult	</nodefullVisual>
-	<metaData>	Wargaming | Lesta Studio	</metaData>
+	<visual>	PnFMods/ARP_HK_Kongo_1942/JSB007_Kongo_1942/catapult/JC002_Catapult.visual	</visual>
+	<animations />
+	<dyes />
+	<metaData>	Wargaming.net	</metaData>
 </JC002_Catapult.model>

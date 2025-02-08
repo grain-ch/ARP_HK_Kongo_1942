@@ -1,8 +1,0 @@
-<JC002_Catapult_lod1.model>
-	<extent>	6.0000	</extent>
-	<parent>	PnFMods/ARP_HK_Kongo_1942/JSB007_Kongo_1942/catapult/lods/JC002_Catapult_lod2	</parent>
-	<castsShadow>	true	</castsShadow>
-	<exporter>	1.6	</exporter>
-	<nodefullVisual>	PnFMods/ARP_HK_Kongo_1942/JSB007_Kongo_1942/catapult/lods/JC002_Catapult_lod1	</nodefullVisual>
-	<metaData>	Wargaming | Lesta Studio	</metaData>
-</JC002_Catapult_lod1.model>

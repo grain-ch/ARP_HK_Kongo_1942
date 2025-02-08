@@ -1,37 +1,37 @@
 <JF052_Rangefinder.mfm>
 	<fx>	shaders/materials/pbs/ship_material.fx	</fx>
 	<collisionFlags>	0	</collisionFlags>
-	<property>	normalMap
-		<Texture>	PnFMods/ARP_HK_Kongo_1942/JSB007_Kongo_1942/finder/JF052_Rangefinder_n.dds	</Texture>
-	</property>
 	<property>	ambientOcclusionMap
 		<Texture>	PnFMods/ARP_HK_Kongo_1942/JSB007_Kongo_1942/finder/default_ao.dds	</Texture>
-	</property>
-	<property>	metallicGlossMap
-		<Texture>	PnFMods/ARP_HK_Kongo_1942/JSB007_Kongo_1942/finder/JF052_Rangefinder_mg.dds	</Texture>
-	</property>
-	<property>	diffuseMap
-		<Texture>	PnFMods/ARP_HK_Kongo_1942/JSB007_Kongo_1942/finder/JF052_Rangefinder_a.dds	</Texture>
 	</property>
 	<property>	detailMap
 		<Texture>	content/gameplay/common/textures/ship_atlas_detail.dds	</Texture>
 	</property>
+	<property>	diffuseMap
+		<Texture>	PnFMods/ARP_HK_Kongo_1942/JSB007_Kongo_1942/finder/JF052_Rangefinder_a.dds	</Texture>
+	</property>
+	<property>	metallicGlossMap
+		<Texture>	PnFMods/ARP_HK_Kongo_1942/JSB007_Kongo_1942/finder/JF052_Rangefinder_mg.dds	</Texture>
+	</property>
+	<property>	normalMap
+		<Texture>	PnFMods/ARP_HK_Kongo_1942/JSB007_Kongo_1942/finder/JF052_Rangefinder_n.dds	</Texture>
+	</property>
 	<property>	g_detailAlbedoInfluence
-		<Float>	0.600000	</Float>
-	</property>
-	<property>	g_detailGlossInfluence
-		<Float>	1.000000	</Float>
-	</property>
-	<property>	g_detailNormalInfluence
-		<Float>	0.400000	</Float>
+		<Float>	0.6000	</Float>
 	</property>
 	<property>	g_detailFadeDistance
-		<Float>	3.000000	</Float>
+		<Float>	3.0000	</Float>
+	</property>
+	<property>	g_detailGlossInfluence
+		<Float>	1.0000	</Float>
+	</property>
+	<property>	g_detailNormalInfluence
+		<Float>	0.4000	</Float>
 	</property>
 	<property>	g_detailScaleU
-		<Float>	4.000000	</Float>
+		<Float>	2.0000	</Float>
 	</property>
 	<property>	g_detailScaleV
-		<Float>	4.000000	</Float>
+		<Float>	2.0000	</Float>
 	</property>
 </JF052_Rangefinder.mfm>

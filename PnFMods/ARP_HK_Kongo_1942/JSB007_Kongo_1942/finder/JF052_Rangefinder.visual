@@ -1,14 +1,7 @@
 <JF052_Rangefinder.visual>
-	<node>
-		<identifier>	Scene Root	</identifier>
-		<transform>
-			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-			<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
-		</transform>
+	<skeleton>
 		<node>
-			<identifier>	JF052_Rangefinder	</identifier>
+			<identifier>	Scene Root	</identifier>
 			<transform>
 				<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
 				<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
@@ -16,32 +9,107 @@
 				<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
 			</transform>
 			<node>
-				<identifier>	MP_JM172_Binoculars_Bridge	</identifier>
+				<identifier>	JF052_Rangefinder	</identifier>
 				<transform>
-					<row0>	0.7500 0.0000 0.0000 0.0000	</row0>
-					<row1>	0.0000 0.7500 0.0000 0.0000	</row1>
-					<row2>	0.0000 0.0000 0.7500 0.0000	</row2>
-					<row3>	0.0000 0.0014 0.0489 1.0000	</row3>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
 				</transform>
+				<node>
+					<identifier>	MP_JM172_Binoculars_Bridge	</identifier>
+					<transform>
+						<row0>	0.7500 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 0.7500 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 0.7500 0.0000	</row2>
+						<row3>	0.0000 0.0014 0.0489 1.0000	</row3>
+					</transform>
+				</node>
 			</node>
 		</node>
-	</node>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	JF052_Rangefinder	</node>
-		<geometry>
-			<vertices>	JF052_RangefinderShape.vertices	</vertices>
-			<primitive>	JF052_RangefinderShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	TL2_SHIPMAT_PBS_Director	</identifier>
-					<mfm>	PnFMods/ARP_HK_Kongo_1942/JSB007_Kongo_1942/finder/JF052_Rangefinder.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
+	</skeleton>
+	<properties>
+		<underwaterModel>	false	</underwaterModel>
+		<abovewaterModel>	true	</abovewaterModel>
+	</properties>
 	<boundingBox>
-		<min>	-0.1620 -0.0486 -0.0782	</min>
-		<max>	0.1620 0.0941 0.0989	</max>
+		<min>	-0.1619 -0.0486 -0.0782	</min>
+		<max>	0.1619 0.0941 0.0989	</max>
 	</boundingBox>
+	<renderSets>
+		<renderSet>
+			<name>	JF052_RangefinderShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	JF052_Rangefinder	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_Director	</identifier>
+				<mfm>	PnFMods/ARP_HK_Kongo_1942/JSB007_Kongo_1942/finder/JF052_Rangefinder.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	JF052_Rangefinder_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	JF052_Rangefinder	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_Director	</identifier>
+				<mfm>	PnFMods/ARP_HK_Kongo_1942/JSB007_Kongo_1942/finder/JF052_Rangefinder.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	JF052_Rangefinder_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	JF052_Rangefinder	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_Director	</identifier>
+				<mfm>	PnFMods/ARP_HK_Kongo_1942/JSB007_Kongo_1942/finder/JF052_Rangefinder.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	JF052_Rangefinder_lod3Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	JF052_Rangefinder	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_Director	</identifier>
+				<mfm>	PnFMods/ARP_HK_Kongo_1942/JSB007_Kongo_1942/finder/JF052_Rangefinder.mfm	</mfm>
+			</material>
+		</renderSet>
+	</renderSets>
+	<lods>
+		<lod>
+			<extent>	2.0000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	JF052_RangefinderShape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	4.0000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	JF052_Rangefinder_lod1Shape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	6.0000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	JF052_Rangefinder_lod2Shape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	40.0000	</extent>
+			<castsShadow>	false	</castsShadow>
+			<renderSets>
+				<renderSet>	JF052_Rangefinder_lod3Shape	</renderSet>
+			</renderSets>
+		</lod>
+	</lods>
 </JF052_Rangefinder.visual>

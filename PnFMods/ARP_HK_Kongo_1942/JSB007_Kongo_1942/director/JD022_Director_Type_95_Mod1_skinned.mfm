@@ -17,21 +17,21 @@
 		<Texture>	PnFMods/ARP_HK_Kongo_1942/JSB007_Kongo_1942/director/JD022_Director_Type_95_Mod1_n.dds	</Texture>
 	</property>
 	<property>	g_detailAlbedoInfluence
-		<Float>	0.0000	</Float>
+		<Float>	0.6000	</Float>
 	</property>
 	<property>	g_detailFadeDistance
 		<Float>	3.0000	</Float>
 	</property>
 	<property>	g_detailGlossInfluence
-		<Float>	0.0000	</Float>
+		<Float>	1.0000	</Float>
 	</property>
 	<property>	g_detailNormalInfluence
-		<Float>	0.0000	</Float>
+		<Float>	0.4000	</Float>
 	</property>
 	<property>	g_detailScaleU
-		<Float>	1.0000	</Float>
+		<Float>	2.0000	</Float>
 	</property>
 	<property>	g_detailScaleV
-		<Float>	1.0000	</Float>
+		<Float>	2.0000	</Float>
 	</property>
 </JD022_Director_Type_95_Mod1_skinned.mfm>

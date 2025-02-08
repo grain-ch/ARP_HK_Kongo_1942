@@ -1,13 +1,6 @@
 <JD049_Director_Type_94.model>
-	<castsShadow>	false	</castsShadow>
-	<extent>	3.0000	</extent>
-	<parent>	PnFMods/ARP_HK_Kongo_1942/JSB007_Kongo_1942/director/lods/JD049_Director_Type_94_lod1	</parent>
-	<materialNames />
-	<visibilityBox>
-		<min>	-0.128172 -0.000000 -0.104179	</min>
-		<max>	0.126706 0.198228 0.129985	</max>
-	</visibilityBox>
-	<exporter>	1.6	</exporter>
-	<nodefullVisual>	PnFMods/ARP_HK_Kongo_1942/JSB007_Kongo_1942/director/JD049_Director_Type_94	</nodefullVisual>
-	<metaData>	Wargaming | Lesta Studio	</metaData>
+	<visual>	PnFMods/ARP_HK_Kongo_1942/JSB007_Kongo_1942/director/JD049_Director_Type_94.visual	</visual>
+	<animations />
+	<dyes />
+	<metaData>	Wargaming.net	</metaData>
 </JD049_Director_Type_94.model>

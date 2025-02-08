@@ -1,6 +1,6 @@
 <JAS010_Kawanishi_E7K2.mfm>
-	<materialKind>	0	</materialKind>
 	<collisionFlags>	0	</collisionFlags>
+	<!--<fx>	shaders/std_effects/PBS.fx	</fx>-->
 	<fx>	shaders/std_effects/PBS_emissive.fx	</fx>
 	<property>	emissivePower
 		<Float>	0.700000	</Float>

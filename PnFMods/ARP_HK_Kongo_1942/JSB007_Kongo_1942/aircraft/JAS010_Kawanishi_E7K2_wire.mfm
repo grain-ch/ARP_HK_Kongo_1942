@@ -1,5 +1,4 @@
 <JAS010_Kawanishi_E7K2_wire.mfm>
-	<materialKind>	0	</materialKind>
 	<collisionFlags>	0	</collisionFlags>
 	<fx>	shaders/std_effects/PBS_wire.fx	</fx>
 	<property>	diffuseMap
