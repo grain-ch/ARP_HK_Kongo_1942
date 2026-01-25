@@ -17,15 +17,6 @@
 					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
 				</transform>
 				<node>
-					<identifier>	MP_JM360_Director_Type_98_Mod1	</identifier>
-					<transform>
-						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-						<row3>	0.0008 0.1565 0.0000 1.0000	</row3>
-					</transform>
-				</node>
-				<node>
 					<identifier>	Type94_wire	</identifier>
 					<transform>
 						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>

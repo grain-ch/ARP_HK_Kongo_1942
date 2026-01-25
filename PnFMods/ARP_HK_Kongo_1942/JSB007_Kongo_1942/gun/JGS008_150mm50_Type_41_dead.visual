@@ -25,7 +25,7 @@
 	</properties>
 	<boundingBox>
 		<min>	-0.0882 -0.0009 -0.0882	</min>
-		<max>	0.0882 0.1400 0.3665	</max>
+		<max>	0.0882 0.1401 0.3665	</max>
 	</boundingBox>
 	<renderSets>
 		<renderSet>

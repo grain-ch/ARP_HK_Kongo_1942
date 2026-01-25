@@ -1,10 +1,6 @@
 <JAS010_Kawanishi_E7K2.mfm>
 	<collisionFlags>	0	</collisionFlags>
-	<!--<fx>	shaders/std_effects/PBS.fx	</fx>-->
 	<fx>	shaders/std_effects/PBS_emissive.fx	</fx>
-	<property>	emissivePower
-		<Float>	0.700000	</Float>
-	</property>
 	<property>	diffuseMap
 		<Texture>	PnFMods/ARP_HK_Kongo_1942/JSB007_Kongo_1942/aircraft/JAS010_Kawanishi_E7K2_a.dds	</Texture>
 	</property>
@@ -17,4 +13,7 @@
 	<property>	ambientOcclusionMap
 		<Texture>	PnFMods/ARP_HK_Kongo_1942/JSB007_Kongo_1942/aircraft/default_ao.dds	</Texture>
 	</property>
-</JAS010_Kawanishi_E7K2.mfm>
+<property>	emissivePower
+		<Float>	0.700000	</Float>
+	</property>
+	</JAS010_Kawanishi_E7K2.mfm>

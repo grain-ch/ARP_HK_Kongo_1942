@@ -1,18 +1,5 @@
 <JSB007_Kongo_1942_Hull.mfm>
-	<!--<fx>	shaders/materials/pbs/ship_material.fx	</fx>-->
 	<fx>	shaders/std_effects/PBS_ship_emissive.fx	</fx>
-	<property>	emissivePower
-		<Float>	0.70000	</Float>
-	</property>
-	<property>	doubleSided
-		<Bool>	false	</Bool>
-	</property>
-	<property>	alphaTestEnable
-		<Bool>	true	</Bool>
-	</property>
-	<property>	alphaReference
-		<Int>	150	</Int>
-	</property>
 	<collisionFlags>	0	</collisionFlags>
 	<property>	ambientOcclusionMap
 		<Texture>	PnFMods/ARP_HK_Kongo_1942/JSB007_Kongo_1942/ship/JSB007_Kongo_1942_Hull_ao.dds	</Texture>
@@ -47,4 +34,16 @@
 	<property>	g_detailScaleV
 		<Float>	32.0000	</Float>
 	</property>
-</JSB007_Kongo_1942_Hull.mfm>
+<property>	emissivePower
+		<Float>	0.70000	</Float>
+	</property>
+	<property>	doubleSided
+		<Bool>	false	</Bool>
+	</property>
+	<property>	alphaTestEnable
+		<Bool>	true	</Bool>
+	</property>
+	<property>	alphaReference
+		<Int>	150	</Int>
+	</property>
+	</JSB007_Kongo_1942_Hull.mfm>

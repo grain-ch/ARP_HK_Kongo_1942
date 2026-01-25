@@ -2,5 +2,6 @@
 	<visual>	PnFMods/ARP_HK_Kongo_1942/JSB007_Kongo_1942/ship/JSB007_Kongo_1942.visual	</visual>
 	<animations />
 	<dyes />
+	<skeletonExtenders />
 	<metaData>	Wargaming.net	</metaData>
 </JSB007_Kongo_1942.model>
